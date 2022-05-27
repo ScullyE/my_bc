@@ -12,7 +12,6 @@ queue* tokenize_problem(char* input){
     bool skip = false;
     int i = 0; 
     int numbufc = 0;
-    int sym;
     char c, last;
     char num_buf[12];
 
